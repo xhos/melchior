@@ -1,0 +1,3 @@
+mode = "ollama"
+model = "mistral"
+ollama_url = "http://localhost:11434"
