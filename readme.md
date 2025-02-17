@@ -1,55 +1,52 @@
-# Melchior
+# melchior  
 
-A CLI tool that translates natural language into shell commands using AI.
+a cli tool that translates natural language into shell commands using ai.  
 
-> The project is currently in early stages of development
+> the project is currently in early stages of development  
 
-## Planned features
+## planned features  
 
-- [x] Ollama support
-- [ ] OpenAI API support
-- [ ] Gemeni API suppprt
-- [ ] Optinal verbose mode, detailed explanations for complex queries
-- [ ] Package
+- [x] ollama support  
+- [ ] openai api support  
+- [ ] gemini api support  
+- [ ] optional verbose mode, detailed explanations for complex queries  
+- [ ] package  
 
-## Description
+## description  
 
-Melchior is a command-line tool that converts natural language instructions into shell commands. No more searching through man pages or looking up commands online - just describe what you need, and Melchior will generate the correct command.
+melchior is a command-line tool that converts natural language instructions into shell commands. no more searching through man pages or looking up commands online—just describe what you need, and melchior will generate the correct command.  
 
-## Installation
+## installation  
 
-WIP
+wip  
 
-## Configuration
+## configuration  
 
-Create a `config.toml` file:
+create a `config.toml` file:  
 
-```toml
-mode = "ollama"
-model = "mistral"
+```toml  
+mode = "ollama"  
+model = "mistral"  
 ollama_url = "http://localhost:11434"
 ```
 
-## Prerequisites
+## prerequisites
 
-- Ollama running locally or accessible via network
-- Selected model pulled
+- ollama running locally or accessible via network
+- selected model pulled
 
-## Usage
+## usage
 
-> For convenience, it's recommended to create a short shell alias for Melchior.
-
+> for convenience, it's recommended to create a short shell alias for melchior.
 
 ```bash
-melchior <prompt>
+melchior <prompt>  
 ```
 
-### Examples
-
 ```bash
-melchior initiate a docker swarm manager
-docker swarm init
+melchior initiate a docker swarm manager  
+docker swarm init  
 
-melchior generatre ed25565 ssh key pair
-ssh-keygen -t ed25519
+melchior generate ed25519 ssh key pair  
+ssh-keygen -t ed25519  
 ```
